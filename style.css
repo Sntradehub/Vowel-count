@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #f9f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./image/5f357be1-9ee9-44c6-a861-ee64f338f03d.jpg);
+}
+.containier {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 60%;
+    height: 60%;
+}
+    textarea{
+        width: 80%;
+        height: 85%;
+        background-color: #e7e4e4;
+    }
+
+h1{
+    color: blue;
+    font-size: 5rem;
+    font-style: oblique;
+    text-align: center;
+}
+#Vowel_btn{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 180px;
+    height: 70px;
+}
+#Vowel_btn:hover{
+    background-color: rgb(78, 78, 119);
+    color: rgb(8, 0, 0);
+    font-size: 1.5rem;
+}
+#result{
+    color: red;
+    font-size: 3rem;
+    margin: 1px;
+}
